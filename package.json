@@ -1,0 +1,27 @@
+{
+  "name": "audiobooks",
+  "version": "1.0.0",
+  "description": "download audiobooks from https://goldenaudiobook.net/",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thornhill",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.27",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@ffprobe-installer/ffprobe": "^2.1.2",
+    "audioconcat": "^0.1.4",
+    "axios": "^1.7.9",
+    "fluent-ffmpeg": "^2.1.3",
+    "promise-audioconcat": "^1.0.2"
+  }
+}
